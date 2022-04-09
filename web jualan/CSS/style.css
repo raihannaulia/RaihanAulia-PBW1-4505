@@ -1,0 +1,90 @@
+
+body {
+	background-color: skyblue;
+}
+
+.judul {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: black;
+	background-color: aquamarine; 
+	font-size: 40px;
+	height: 45px;
+	
+}
+
+.icon {
+	width: 70px;
+	height: 70px;
+	border: 1px solid;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 70px;
+	font-size: 20px;
+	margin:0 auto;
+	color: black;
+}
+
+.container {
+	width:80%;
+	margin:0 auto;
+}
+.container:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+
+.kategori {
+	padding-bottom: 1px;
+	text-align: center;
+}
+
+.box .col-7 {
+	width: 14%;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+}
+
+.box h4 {
+	color: black;
+	font-family: sans-serif;
+}
+
+.box {
+	color: gray;
+	
+}
+.box  .icon :hover {
+	color: bisque;
+}
+
+.box .col-7  {
+	margin:25px 0;
+}
+
+.container {
+	width:80%;
+	margin:0 auto;
+}
+
+.container:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+
+.foto {border: 1px solid gray; margin:10px;}
+
+.foto {border:1px black; margin:10px; text-align: center;}
+
+.foto p, h2 {
+	font-family: Helvetica;
+}
+
+.foto img {
+	width: 500px;
+}
+
+
+
